@@ -24,6 +24,7 @@ body{
     border: green solid 1px;
     padding: 12% 0;
     font-size: 25px;
+    margin: -2px;
 }
 
 .nav-link:hover{
@@ -44,11 +45,12 @@ body{
 .nav-list-bottom{
     position: absolute;
     display: none;
+    top: 109px;
 }
 
 .nav-list-right{
     position: absolute;
     display: none;
-    left: 100%;
-    top: 102px;
+    left: 101%;
+    top: 99px;
 }
