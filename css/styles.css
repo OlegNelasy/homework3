@@ -26,6 +26,18 @@ body{
     font-size: 25px;
 }
 
+.nav-link:hover{
+    background-color: green;
+}
+
+.nav-item-list:hover > .nav-list-bottom{
+    display: block;
+}
+
 .nav-item-list{
     display: inline-block;
+}
+.nav-list-bottom{
+    position: absolute;
+    display: none;
 }
