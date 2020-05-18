@@ -34,10 +34,21 @@ body{
     display: block;
 }
 
+.nav-submenu-list:hover > .nav-list-right{
+    display: block;
+}
+
 .nav-item-list{
     display: inline-block;
 }
 .nav-list-bottom{
     position: absolute;
     display: none;
+}
+
+.nav-list-right{
+    position: absolute;
+    display: none;
+    left: 100%;
+    top: 102px;
 }
